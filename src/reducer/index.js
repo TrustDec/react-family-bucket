@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
 import buttonclicktext from './buttonclicktext';
 import increasedecrease from './increasedecrease';
-export default combineReducers({
+const chatReducer = combineReducers({
     buttonclicktext,
-    increasedecrease
-})
+    //increasedecrease
+});
+export default chatReducer;

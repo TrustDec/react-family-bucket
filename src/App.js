@@ -7,7 +7,7 @@ import Button from './components/Button';
 class App extends Component {
   render() {
     const { text, onChangeText, onButtonClick, onDivClick } = this.props;
-    console.log(this.props)
+    console.log(this.props.action)
     return (
       <div>
         <h1 onClick={onChangeText}> {text} </h1>
